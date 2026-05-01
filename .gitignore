@@ -1,0 +1,22 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Build/test/tooling artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Local ML artifacts
+risk-intelligence-agent/models/
+
+# Local vector database artifacts
+risk-intelligence-agent/vectorstore/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
